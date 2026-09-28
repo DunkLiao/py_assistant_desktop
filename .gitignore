@@ -1,0 +1,45 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ===== 虛擬環境 =====
+.venv/
+venv/
+ENV/
+env/
+
+# ===== 測試與工具快取 =====
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+
+# ===== PyInstaller 建置產物 =====
+build/
+dist/
+*.spec
+
+# ===== 本專案執行期產物 =====
+# 註：資料檔（config.json / notes.json / ...）位於 platformdirs 的使用者資料目錄，
+#     不在專案內，因此不需忽略；以下僅為開發時可能落在專案目錄的產物。
+*.log
+*.corrupt-*
+assets/_generated/
+
+# ===== 編輯器 / 作業系統 =====
+.vscode/
+.idea/
+*.swp
+*~
+Thumbs.db
+desktop.ini
